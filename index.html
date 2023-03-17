@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sinema Bilet Al</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="screen">
+        <img src="lotr-screen.jpg" alt="" class="img">
+        <span class="fiyat">100TL</span>
+    </div>
+
+    <div class="seat-list">
+        <div class="row">
+            <div class="seat">1</div>
+            <div class="seat">2</div>
+            <div class="seat">3</div>
+            <div class="seat">4</div>
+            <div class="seat">5</div>
+            <div class="seat">6</div>
+            <div class="seat">7</div>
+            <div class="seat">8</div>
+        </div>
+        <div class="row">
+            <div class="seat">9</div>
+            <div class="seat">10</div>
+            <div class="seat">11</div>
+            <div class="seat">12</div>
+            <div class="seat">13</div>
+            <div class="seat">14</div>
+            <div class="seat">15</div>
+            <div class="seat">16</div>
+        </div> 
+        <div class="row">
+            <div class="seat">17</div>
+            <div class="seat">18</div>
+            <div class="seat">19</div>
+            <div class="seat">20</div>
+            <div class="seat">21</div>
+            <div class="seat">22</div>
+            <div class="seat">23</div>
+            <div class="seat">24</div>
+        </div>
+        <div class="row">
+            <div class="seat">25</div>
+            <div class="seat">26</div>
+            <div class="seat">27</div>
+            <div class="seat">28</div>
+            <div class="seat">29</div>
+            <div class="seat">30</div>
+            <div class="seat">31</div>
+            <div class="seat">32</div>
+        </div>
+        <div class="row">
+            <div class="seat selected">33</div>
+            <div class="seat filled">34</div>
+            <div class="seat empty">35</div>
+            <div class="seat">36</div>
+            <div class="seat">37</div>
+            <div class="seat">38</div>
+            <div class="seat">39</div>
+            <div class="seat">40</div>
+        </div> 
+    </div>
+
+    <div class="movie-list">
+        <select class="form-select" aria-label="Default select example" id="movie">
+            <option selected value="0">Film seçiniz</option>
+            <option value="50">Yüzüklerin Efendisi: Yüzük Kardeşliği</option>
+            <option value="40">Bir Rüya İçin Ağıt</option>
+            <option value="30">Masumiyet</option>
+          </select>
+    </div>
+
+    <ul class="info">
+        <li>
+            <div class="seat selected"></div>
+            <span>Seçili</span>
+        </li>
+        <li>
+            <div class="seat"></div>
+            <span>Boş</span>
+        </li>
+        <li>
+            <div class="seat filled"></div>
+            <span>Dolu</span>
+        </li>
+    </ul>
+
+    <div class="film-afis">
+        <img src="lotr.png" alt="">
+    </div>
+
+    <div class="fatura">
+        <img src="lotr.png" alt="">
+    </div>
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
