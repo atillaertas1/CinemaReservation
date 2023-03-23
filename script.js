@@ -2,6 +2,7 @@ const container = document.querySelector(".container");
 const filmAfis = document.querySelector(".film-afis img");
 const filmAfis2 = document.querySelector(".fatura img");
 const fiyat = document.querySelector('.screen span');
+const screen = document.querySelector('.screen img');
 const select = document.querySelector(".movie-list select");
 const movie = document.getElementById("movie")
 
@@ -41,18 +42,20 @@ function imageControl()
     {
         filmAfis.src = "masumiyet.png";
         filmAfis2.src = "masumiyet.png";
+        screen.src = "masumiyet-screen.png"
+
         // console.log(select.value)
     }
     else if(movie.value == 40)
     {
         filmAfis.src = "ruya.png";
         filmAfis2.src = "ruya.png";
-
+        screen.src = "ruya-screen.jpg"
     }
     else if(movie.value == 50)
     {
         filmAfis.src = "lotr.png";
         filmAfis2.src = "lotr.png";
- 
+        screen.src = "lotr-screen.jpg"
     }
 }
